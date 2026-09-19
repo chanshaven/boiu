@@ -1,16 +1,219 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boiu</title>
 
-    <meta http-equiv="refresh" content="0; url=boius/boiu-01/">
+    <title>Một câu hỏi nhỏ ♡</title>
 
-    <script>
-        window.location.replace("boius/boiu-01/");
-    </script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+    <!-- =========================
+         SKY BACKGROUND
+    ========================== -->
+
+    <div class="sky-background">
+
+        <div class="sun-glow"></div>
+
+        <div class="sky-cloud cloud-a">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="sky-cloud cloud-b">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="sky-cloud cloud-c">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="sky-cloud cloud-d">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="sky-cloud cloud-e">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         FLOATING HEARTS / STARS
+    ========================== -->
+
+    <div id="floatingLayer" class="floating-layer"></div>
+
+
+    <!-- =========================
+         CARD
+    ========================== -->
+
+    <main class="card" id="card">
+
+        <div class="ribbon">
+            Bơ iu ♡
+        </div>
+
+
+        <!-- =====================
+             QUESTION
+        ====================== -->
+
+        <section id="questionScreen" class="screen question-screen">
+
+            <!-- AVOCADO -->
+
+            <div class="avocado-mascot">
+
+                <div class="avocado-body">
+
+                    <div class="avocado-flesh"></div>
+
+                    <div class="avocado-seed"></div>
+
+                    <div class="avocado-eye avocado-eye-left"></div>
+                    <div class="avocado-eye avocado-eye-right"></div>
+
+                    <div class="avocado-blush avocado-blush-left"></div>
+                    <div class="avocado-blush avocado-blush-right"></div>
+
+                    <div class="avocado-mouth">
+                        ᴗ
+                    </div>
+
+                </div>
+
+                <div class="avocado-arm arm-left"></div>
+                <div class="avocado-arm arm-right"></div>
+
+            </div>
+
+
+            <p class="tiny-title">
+                ✦ Hello Vân ✦
+            </p>
+
+
+            <h1>
+                Em có
+                <span>yêu anh không?</span>
+            </h1>
+
+
+            <p class="subtitle">
+                Trẫm yêu cầu nàng suy nghĩ cho kỹ
+                <span class="mini-heart">♡</span>
+            </p>
+
+
+            <!-- BUTTONS -->
+
+            <div class="button-zone" id="buttonZone">
+
+                <button class="yes-btn" id="yesBtn" type="button">
+                    Cóooo ♡
+                </button>
+
+
+                <button class="no-btn" id="noBtn" type="button">
+                    Không
+                </button>
+
+            </div>
+
+
+            <p class="hint">
+                những dòng tin nhắn đầu tiên ✨
+            </p>
+
+        </section>
+
+
+        <!-- =====================
+             RESULT
+        ====================== -->
+
+        <section id="resultScreen" class="screen result-screen hidden">
+
+            <div class="success-icon">
+                ♡
+            </div>
+
+
+            <p class="tiny-title">
+                biết ngay màaa ♡
+            </p>
+
+
+            <h1 class="result-title">
+
+                Anh biết
+
+                <span>
+                    em yêu anh nhất
+                </span>
+
+                ✨
+
+            </h1>
+
+
+            <div class="message-box">
+
+                <span class="quote">
+                    “
+                </span>
+
+                <p>
+                    Cảm ơn em vì vẫn luôn ở đây ♡
+                </p>
+
+                <span class="quote quote-end">
+                    ”
+                </span>
+
+            </div>
+
+
+            <p class="ending">
+
+                Trụ gang đúc của em
+
+                <span>
+                    ૮ ˶ᵔ ᵕ ᵔ˶ ა
+                </span>
+
+            </p>
+
+
+            <button class="again-btn" id="againBtn" type="button">
+                chơi lại ♡
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
