@@ -130,16 +130,16 @@ const camera =
 const cameraStart =
     new THREE.Vector3(
         0,
-        3.15,
-        mobile ? 16.2 : 16
+        mobile ? 3.0 : 3.15,
+        mobile ? 17.0 : 16.0
     );
 
 
 const cameraEnd =
     new THREE.Vector3(
         0,
-        2.45,
-        mobile ? 13.0 : 12.2
+        mobile ? 2.35 : 2.45,
+        mobile ? 14.0 : 12.2
     );
 
 
