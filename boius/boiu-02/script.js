@@ -2639,7 +2639,7 @@ function updateProgress() {
 
 
         sceneSubtitle.textContent =
-            "em đã tìm thấy tất cả những chiếc đèn rồi ♡";
+            "trung thu dui dẻ nghen quý dị ♡";
 
     }
 
